@@ -10,9 +10,14 @@
 \usepackage{csquotes}
 \usepackage[backend=biber]{biblatex}
 \addbibresource{MooreAfter2017.bib}
-\usepackage[breaklinks=true, colorlinks=True, allcolors=blue]{hyperref} 
+\usepackage[breaklinks=true, colorlinks=True, allcolors=blue]{hyperref}
 
+\usepackage{indentfirst} 
 \usepackage{comment}
+
+% A couple of very simple macros to add 'Activities' and 'Plans' headings.
+\newcommand{\activities}{\medskip\textbf{Activities}}
+\newcommand{\plans}{\medskip\textbf{Plans}}
 
 \makeatletter
 
@@ -26,6 +31,15 @@
 Associate Professor / Extension Entomologist}
 
 \maketitle
+
+\includepdf[pages=1]{Reflective2019-form}
+
+\tableofcontents{}
+
+\clearpage
+
+\section{Preface}
+
 I was hired by the University of Guam on October 1, 2003 under a limited-term,
 split appointment (50\% extension and 50\% research). On June 26,
 2008, I started a tenure-track appointment as extension entomologist
@@ -42,9 +56,9 @@ Pacific Tropical Research Center.
 This report documents my activities from June 2017 through the present.
 My current faculty role allocation is as follows:.
 \begin{itemize}
-\item 51\% Extension and Community Activities 
-\item 34\% Creative/Scholarly Activity or Research 
-\item 15\% University and Community Service
+	\item 51\% Extension and Community Activities 
+	\item 34\% Creative/Scholarly Activity or Research 
+	\item 15\% University and Community Service
 \end{itemize}
 \textbf{Note to Reader:}
 
@@ -55,17 +69,12 @@ If you are reading the PDF version of the report on a device connected
 to the internet, you will be able to follow hypertext links to documents
 I have referenced. 
 
-\includepdf[pages=1]{Reflective2018-form}
-
-\tableofcontents{}
-
-\clearpage
 
 \section{Extension and Community Activities}
 
 \subsection{Insect Diagnostic Services}
 \begin{refsection}
-
+	
 As an extension entomologist, a major part of my job is providing
 insect identification and pest control recommendations to a diverse
 clientele including commercial growers, gardeners, householders, GovGuam
@@ -75,14 +84,18 @@ office. In many cases identification and pest control recommendations
 require a site visit by me and/or extension associates to collect
 samples and define the problem.
 
-\raggedright\vspace{2mm}\textbf{Activity}
+\activities
+
 \begin{itemize}
 \item The number of extension calls requiring my assistance averages approximately
 three per day during the reporting period. Many of these are documented
 as postings to iNaturalist \cite{moore_inaturalist_2018}.
 \end{itemize}
 
+\plans
+
 \printbibliography[]
+
 \end{refsection}
 
 
@@ -100,7 +113,7 @@ this problem by increasing the detection rate, getting specimens identified
 by qualified taxonomists, and publishing new island records in the
 scientific literature.
 
-\raggedright\vspace{2mm}\textbf{Activity}
+\activities
 
 \begin{itemize}
 \item 3 new invasive insects documented in iNaturalist posts, 1 new invasive
@@ -126,6 +139,8 @@ for this list.
 
 \end{itemize}
 
+\plans
+
 \printbibliography
 \end{refsection}
 
@@ -137,7 +152,7 @@ entomology, teaching and research. I am a member of the board of directors
 for the collection and I work with Dr. Ross Miller to curate and catalog
 this collection.
 
-\raggedright\vspace{2mm}\textbf{Activity}
+\activities
 
 \begin{itemize}
 
@@ -429,7 +444,7 @@ from the GPEPP plant nursery and from field surveys.
 \begin{btUnit}
 \end{comment}
 
-\section{Eight Spot Butterfly (ESB) Conservation}
+\subsection{Eight Spot Butterfly (ESB) Conservation}
 
 The Guam Department of Agriculture Division of Aquatic and Wildlife
 Resources (GDOA-DAWR) requested assistance with conservation of the
