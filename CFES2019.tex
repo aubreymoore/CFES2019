@@ -24,8 +24,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{csquotes}
-%\usepackage[backend=biber, style=draft]{biblatex}
-\usepackage[defernumbers=true,backend=biber]{biblatex}
+
+% Use style=draft to print citation keys
+\usepackage[defernumbers=true,backend=biber,style=draft]{biblatex}
+%\usepackage[defernumbers=true,backend=biber]{biblatex}
+
 \addbibresource{MooreAfter2017.bib}
 \addbibresource{inat.bib}
 \addbibresource{misc.bib}
@@ -688,7 +691,11 @@ I served as a member of this committee.
 
 \subsection{USDA-APHIS-2019 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$200K}
 \begin{refsection}
-	\printbibliography
+	\begin{itemize}
+		\item Proposal \cite{moore_fy19_2018}
+		\item Budget \cite{moore_fy19_2018-1}
+	\end{itemize}
+	\printbibliography[heading=none]
 \end{refsection}
 
 \subsection{DOI-OIA Biological Control of Coconut Rhinoceros Beetle Biotype-G in Micronesia 2Y \$????K}
@@ -708,13 +715,17 @@ I served as a member of this committee.
 \begin{refsection}
 	\begin{itemize}
 		\item Proposal \cite{moore_mcintire-stennis_2018}
+		\item Progress report \cite{moore_guam_2020}
 	\end{itemize}
 	\printbibliography[heading=none]
 \end{refsection}
 
 \subsection{Western Plant Diagnostic Network 1Y \$10K}
 \begin{refsection}
-	\printbibliography
+	\begin{itemize}
+		\item Progress report \cite{moore_npdn_2018}
+	\end{itemize}
+	\printbibliography[heading=none]
 \end{refsection}
 
 
@@ -769,6 +780,7 @@ National Plant Diagnostic Network &  & 1 & \$10,000\tabularnewline
 \subsection{SERDP Biological Control of Coconut Rhinoceros Beetle in the American Pacific 4Y \$3.6M}
 \begin{refsection}
 	\begin{itemize}
+		\item Answers to \textit{pitch questions} \cite{moore_aubreymoore/answers--pitch-questions_2019} 
 		\item Preproposal \cite{moore_serdp_2020}	
 	\end{itemize}
 	\printbibliography[heading=none]
@@ -781,6 +793,11 @@ National Plant Diagnostic Network &  & 1 & \$10,000\tabularnewline
 \subsection{USFS Biological Control of Cycad Scale}
 
 \subsection{DOI-OIA Biological Control of Coconut Rhinoceros Beetle in the American Pacific}
+
+\clearpage
+
+\nocite{*}
+\printbibliography
 
 
 \end{document}
