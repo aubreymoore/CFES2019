@@ -1,6 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%
 % Notes on Citations
 %
 % MooreAfter2017.bib is an export of the MooreAfter2017 saved search in my Zotero database.
@@ -11,6 +10,12 @@
 % or errors which need to be fixed. 
 %
 % Fix any problems in Zotero, then export a fresh version of MooreAfter2017.bib
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Checking links in PDF
+%
+% pdfx -c CFES2019.pdf
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -26,8 +31,8 @@
 \usepackage{csquotes}
 
 % Use style=draft to print citation keys
-\usepackage[defernumbers=true,backend=biber,style=draft]{biblatex}
-%\usepackage[defernumbers=true,backend=biber]{biblatex}
+%\usepackage[defernumbers=true,backend=biber,style=draft]{biblatex}
+\usepackage[defernumbers=true,backend=biber]{biblatex}
 
 \addbibresource{MooreAfter2017.bib}
 \addbibresource{inat.bib}
@@ -346,16 +351,10 @@ I will continue to use web sites to facilitate sharing information on Guam's ins
 
 \section{Creative/Scholarly Activities or Research}
 
-\subsection{\label{sec:Coconut-Rhinoceros-Beetle}Coconut Rhinoceros Beetle (CRB)
-Biocontrol}
-
-This is my largest and most important project. Funding for outreach
-and applied research is currently provided by three grants: USDA-APHIS
-FY17 Farm Bill, USDA-Farm FY18 Bill, and a grant from the Department
-of the Interior-Office of Island Affairs for FY18-19.
-
-I have submitted a proposal for FY19 Farm Bill Fundings. The abstract
-from this proposal serves as a description of this ongoing project:
+\subsection{\label{sec:Coconut-Rhinoceros-Beetle}Coconut Rhinoceros Beetle (CRB) Biocontrol}
+\begin{refsection}
+	
+\subsubsection{Description}
 
 A newly discovered biotype of coconut rhinoceros beetle (CRB-G) is
 rapidly killing coconuts and other palms on Guam and on other Pacific
@@ -404,6 +403,32 @@ ensue. On larger islands, coconut and oil palm industries will be
 severely impacted. Attempts to organize a regional project in response
 to CRB-G are underway.
 
+\subsubsection{Activities}
+
+Current focus is on finding an isolate of \textit{Oryctes} rhinoceros nudivirus which can be used as a biological control agent for CRB-G. Laboratory bioassays have identified one OrNV isolate which is potential candidate and further tests are under way.
+
+Taiwan trip
+
+Australia trip
+
+India trip
+
+\paragraph{Funding}
+
+This is my largest and most important project. Funding is currently provided by four grants: USDA-APHIS FY17 Farm Bill~\ref{USDA-APHIS-2017}, USDA-Farm FY18 Bill~\ref{USDA-APHIS-2018}, USDA-Plant Protection Act~\ref{USDA-APHIS-2019} and a grant from the Department of Interior, Office of Insular Affairs~\ref{DOI}. Links to progress reports for these grants are in the appendices. 
+
+\paragraph{Staffing}
+
+\subsubsection{Plans}
+
+I have submitted a proposal for FY20 USDA-Plant Protection Act Funds~\ref{USDA-APHIS-2020}.
+
+SERDP
+
+American Samoa trip
+
+\printbibliography[heading=none]
+
 \begin{comment}
 
 \raggedright\vspace{2mm}\textbf{Activity}
@@ -446,6 +471,9 @@ no response when applied to CRB-G adults \cite{moore2018initial}
 \begin{btUnit}
 
 \end{comment}
+
+\end{refsection}
+
 
 \subsection{Cycad Aulacaspis Scale (CAS) Biocontrol}
 
@@ -680,30 +708,50 @@ I served as a member of this committee.
 \section{Active Grants}
 	
 \subsection{USDA-APHIS-2017 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$200K}
-\begin{refsection}
-	%\printbibliography
-\end{refsection}
-
-\subsection{USDA-APHIS-2018 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$200K}
-\begin{refsection}
-	%\printbibliography
-\end{refsection}
-
-\subsection{USDA-APHIS-2019 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$200K}
+\label{USDA-APHIS-2017}
 \begin{refsection}
 	\begin{itemize}
-		\item Proposal \cite{moore_fy19_2018}
-		\item Budget \cite{moore_fy19_2018-1}
+		\item Work Plan \cite{moore_fy17_2018} 
+		\item Report 1 \cite{moore_usda_2018} 
+		\item Report 2 \cite{moore_usda_2018-1} 
+		\item Report 3 \cite{moore_usda_2019}		
 	\end{itemize}
 	\printbibliography[heading=none]
 \end{refsection}
 
-\subsection{DOI-OIA Biological Control of Coconut Rhinoceros Beetle Biotype-G in Micronesia 2Y \$????K}
+\subsection{USDA-APHIS-2018 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$200K}
+\label{USDA-APHIS-2018}
 \begin{refsection}
-	\printbibliography
+	\begin{itemize}
+		\item Work Plan \cite{moore_farm_2018-1} 
+		\item Budget \cite{moore_fy18_2018} 
+		\item Report 2 \cite{moore_usda_2019-1}
+	\end{itemize}
+	\printbibliography[heading=none]
+\end{refsection}
+
+\subsection{USDA-APHIS-2019 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$200K}
+\label{USDA-APHIS-2019}
+\begin{refsection}
+	\begin{itemize}
+		\item Proposal \cite{moore_fy19_2018}
+		\item Proposed budget \cite{moore_fy19_2018-1}
+	\end{itemize}
+	\printbibliography[heading=none]
+\end{refsection}
+
+\subsection{DOI-OIA Biological Control of Coconut Rhinoceros Beetle Biotype-G in Micronesia 2Y \$177K}
+\label{DOI}
+\begin{refsection}
+	\begin{itemize}
+		\item Report 2 \cite{moore_doi-oia_2018}
+		\item Report 3 \cite{moore_doi-oia_2019}
+	\end{itemize}		
+	\printbibliography[heading=none]
 \end{refsection}
 
 \subsection{McIntire-Stennis Guam Forest Insect Survey 4Y \$60K}
+\label{McIntire-Stennis Guam Forest Insect Survey}
 \begin{refsection}
 	\begin{itemize}
 		\item Final report \cite{moore_aubrey_mcintire_2018}
@@ -711,7 +759,8 @@ I served as a member of this committee.
 	\printbibliography[heading=none]
 \end{refsection}
 
-\subsection{McIntire-Stennis Guam Forest Insect Survey 5Y \$????K}
+\subsection{McIntire-Stennis Guam Forest Biodiversity Inventory 5Y \$80K}
+\label{McIntire-Stennis Guam Forest Biodiversity Inventory}
 \begin{refsection}
 	\begin{itemize}
 		\item Proposal \cite{moore_mcintire-stennis_2018}
@@ -721,14 +770,13 @@ I served as a member of this committee.
 \end{refsection}
 
 \subsection{Western Plant Diagnostic Network 1Y \$10K}
+\label{WPDN}
 \begin{refsection}
 	\begin{itemize}
 		\item Progress report \cite{moore_npdn_2018}
 	\end{itemize}
 	\printbibliography[heading=none]
 \end{refsection}
-
-
 
 %moore2017doiproposal & Biological Control of Coconut Rhinoceros Beetle Biotype-G in Micronesia & 2 & \$176,553\tabularnewline
 %\hline 
@@ -737,9 +785,6 @@ I served as a member of this committee.
 %National Plant Diagnostic Network 2017 moore2018university moore2018npdnaccomplishments &  & 1 & \$10,000\tabularnewline
 %\hline 
 %\textbf{Pending} &  &  & \tabularnewline
-
-
-
 
 \begin{comment}
 \begin{tabular}{>{\raggedright}p{2in}>{\raggedright}p{2in}>{\centering}p{0.5in}>{\raggedleft}p{1in}}
@@ -775,7 +820,15 @@ National Plant Diagnostic Network &  & 1 & \$10,000\tabularnewline
 
 \section{Submitted Grant Proposals}
 
-\subsection{USDA-APHIS-2020 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$?????}
+\subsection{USDA-APHIS-2020 Biological Control of Coconut Rhinoceros Beetle Biotype-G 1Y \$331K}
+\label{USDA-APHIS-2020}
+\begin{refsection}
+	\begin{itemize}
+		\item Proposal \cite{moore_fy20_2019}
+		\item Budget \cite{moore_fy20_2019-1} 
+	\end{itemize}	
+	\printbibliography[heading=none]
+\end{refsection}
 
 \subsection{SERDP Biological Control of Coconut Rhinoceros Beetle in the American Pacific 4Y \$3.6M}
 \begin{refsection}
@@ -794,10 +847,12 @@ National Plant Diagnostic Network &  & 1 & \$10,000\tabularnewline
 
 \subsection{DOI-OIA Biological Control of Coconut Rhinoceros Beetle in the American Pacific}
 
+\begin{comment}
 \clearpage
 
 \nocite{*}
 \printbibliography
+\end{comment}
 
 
 \end{document}

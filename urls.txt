@@ -1,0 +1,47 @@
+Document infos:
+- CreationDate = D:20200207001206+10'00'
+- Creator = LaTeX with hyperref package
+- ModDate = D:20200207001206+10'00'
+- PTEX.Fullbanner = This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) kpathsea version 6.2.1
+- Pages = 31
+- Producer = pdfTeX-1.40.16
+- Trapped = False
+
+References: 142
+- URL: 109
+- PDF: 33
+
+PDF References:
+- https://github.com/aubreymoore/CFES2019/blob/master/refs/FY17%20FB%20Work%20and%20Financial%20Plan.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/refs/FY18-FB-budget%20.pdf
+- https://github.com/aubreymoore/Guam-Bioinvasion-July-2018/raw/master/compress_biological_invasion_of_guam_July_2018.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/refs/FB18_report2.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/promotion/pt-evaluation.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/Guam%20WPDN-Accomplishments%20Summary%20Form%202018%20final.pdf
+- https://github.com/aubreymoore/answers-to-pitch-questions/blob/master/SERDP_Proposal/preproposal.pdf
+- https://github.com/aubreymoore/doi-CRB-biocontrol-project/blob/master/report2/report2.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/MooreFB19.pdf
+- github.com/aubreymoore/CFES2019/blob/master/refs/FB17_report2.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/refs/FB17_report2.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/internship.pdf
+- https://zenodo.org/record/2545065/files/Moore-Vancouver-2018.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/refs/FB17_report1.pdf
+- https://github.com/aubreymoore/Free-Cell-Phone-Apps-for-Pest-Surveys/raw/master/iNatEpi.pdf
+- https://github.com/aubreymoore/answers-to-pitch-questions/raw/master/pitch.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/UOG%20Animal%20Scientist%20Announcement.pdf
+- https://github.com/aubreymoore/doi-CRB-biocontrol-project/blob/master/report%203/DOI_OIA_report3_ebook.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/refs/Moore%20FY20%20PPA%20Suggestion.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/FY18-GU-CRB%20biocontrol%20workplan.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/ms_proposal_2018.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/5%20GCA%20Chapter%2070%20Bill%20Draft%20D.%20Guerrero%20%26%20Joseph%20Santos%20V.5%202018%20no%20password.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/blob/master/JA-RC-18-06%20Post%20Doctoral%20Researcher%20(Insect%20Pathology).pdf
+- https://github.com/aubreymoore/4HRPi/raw/master/report.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/Animal%20Scientist%20Announcement%20-%20American%20Society%20of%20Animal%20Science.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/GISC%20IDHC%20Report%20%26%20Recommendations.pdf
+- https://github.com/aubreymoore/2019-Forest-Service-Review/raw/master/2019%20Forest%20Service%20Review.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/BYOB_03_07_18.pdf
+- https://www.apsnet.org/members/community/divisions/pac/meetings/Documents/APS_PacificDivisionCSPP_2018_PROGRAM%20SCHEDULE.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/Berkeley_Trip_report.pdf
+- https://github.com/aubreymoore/CFES2019/blob/master/CFES2019.pdf
+- https://github.com/aubreymoore/Free-Cell-Phone-Apps-for-Pest-Surveys/raw/master/2018%20CRB%20workshop%20for%20CNMI.pdf
+- https://github.com/aubreymoore/Miscellaneous-Docs-for-CFES2018/raw/master/Univ%20of%20Guam%20WPDN%20budget%202017-18-Final.pdf
