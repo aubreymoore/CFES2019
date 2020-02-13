@@ -11,11 +11,32 @@
 %
 % Fix any problems in Zotero, then export a fresh version of MooreAfter2017.bib
 %
+% Keywords in the MooreAfter2017.bib are used as filters. Note that keywords
+% cannot contain space characters.
+% 
+% Example:
+% \begin{refsection}
+%	\nocite{*}
+%	\printbibliography[heading=none, keyword={Moore-presentations-after-2017}]
+% \end{refsection} 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Checking links in PDF
 %
 % pdfx -c CFES2019.pdf
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection format
+%
+% \begin{refsection}
+% \subsubsection{Description}
+% \subsubsection{Activities}
+% \subsubsection{Plans}
+% \subsubsection{References}
+% \printbibliography[heading=none]
+% \end{refsection}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -290,25 +311,22 @@ resulting in a bill to amend the Guam Invasive Species Act \cite{guerrero_bill_2
 	
 \subsubsection{Description}
 
+I partnered with the University of Guam (UOG) 4H program to put on a workshop to introduce local youth to the Raspberry Pi computer and Python coding. 
+
 \subsubsection{Activities}
+
+This 20 hour workshop was conducted on July 23 through July 26, 2019, 900h to 1300h each day. An Open Science Frame work site was used as an online repository for course materials \cite{moore_open_2018} and detailed report was submitted \cite{moore_report_2019-1}.
 
 \subsubsection{Plans}
 
+This workshop may be offered again if there is a demand and time and resources permit.
+
 \subsubsection{References}
-%\printbibliography[heading=none]
+\printbibliography[heading=none]
 \end{refsection}
-
-\subsection{Public Outreach}
 	
-\subsubsection{Presentations}
-\begin{refsection}
-	
-\nocite{*}
-\defbibfilter{presentations}{keyword=presentation2018 or keyword=presentation}
-\printbibliography[resetnumbers=true, heading=none,filter=presentations]
-\end{refsection} 
 
-\subsubsection{Radio and Newspaper}
+\subsection{Public Outreach: Radio and Newspaper}
 
 \begin{refsection}
 	\nocite{*}
@@ -336,7 +354,7 @@ resulting in a bill to amend the Guam Invasive Species Act \cite{guerrero_bill_2
 
 \end{comment}
 
-\subsubsection{Internet}
+\subsection{Public Outreach: Internet}
 
 Since the 1990s, I have built and maintained web sites to facilitate sharing information about insects in Micronesia.
 
@@ -364,6 +382,12 @@ I will continue to use web sites to facilitate sharing information on Guam's ins
 
 
 \pagebreak
+
+\subsection{Public Outreach: Presentations}
+\begin{refsection}
+	\nocite{*}
+	\printbibliography[heading=none, keyword=Moore-presentations-after-2017]
+\end{refsection} 
 
 \section{Creative/Scholarly Activities or Research}
 
@@ -683,21 +707,24 @@ parasitoid survey \cite{deloso2018parasitoid}.
 The Guam Department of Agriculture Division of Aquatic and Wildlife
 Resources (GDOA-DAWR) requested assistance with conservation of the
 rare Mariana eight-spot butterfly, \emph{Hypolimnas octocula marianensis.
-}I grant proposal for this work was funded by US Fish and Wildlife
-and funds were made available to the Guam Department of Agriculture
-for this work. The project was halted shortly after it began because
-USFWS listed ESB on the National Endangered Species List. This required
-a permit to work with this species. I worked with GDOA-DAWR on a permit
-application. I am ready to restart this project, but GDOA-DAWR is
-unable to access grant funding from GovGuam.
+}. I prepared a grant proposal and permit application to do this work \cite{aubrey_moore_application_2016} which has been funded \ref{eightspot}.
+
+The objective of this project is to investigate the feasibility of captive rearing.
 
 \subsubsection{Activities}
 
+I have partnered with Dr. Curt (George) Fiedler, Biology Department, and the Center for Island Sustainability to colaborate on this project.
+
+A large field cage (20x20X10 feet) is being built in the CIS compound in Dean's Circle.
+
 \subsubsection{Plans}
+
+Breeding experiments will commence within the next 2 months.
+
+I intend to publish a review article on \textit{Hypolimnas octocula} \cite{moore_mariana_2013}
 
 \subsubsection{References}
 \printbibliography[heading=none]
-
 \end{refsection}
 
 
@@ -713,19 +740,51 @@ to report. \newpage{}
 \end{comment}
 
 
-\subsection{Automated Digital Image Analysis}
+\subsection{Development of a Camera Trap for Insects}
 \begin{refsection}
 \subsubsection{Description}
+
+The objective of this project is to build a camera trap which uses motion detection to automatically capture short videos of active insects.
+
+The initial target application is a surveillance system for insects visiting flowers.
+
 \subsubsection{Activities}
+
+Initial attempts at hardware and software development are available on an Open Science Framework site \cite{moore_development_2019}.
+
 \subsubsection{Plans}
+
+For the first target application of this technology, I am partnering with Dr. Jim McConnel and staff of the Guam Plant Extinction Prevention Project to discover insect pollinators of an endangered endemic plant.
+
+I plan to test the camera trap for monitoring bee hive activity, including detecting arrival of hornets (\textit{Vespa tropica}).
+
+USDA-APHIS herpetologist, Dr. Shane Sears, has asked me to help with digital image analysis of brown tree snake videos.
+
 \subsubsection{References}
-%\printbibliography[heading=none]
+\printbibliography[heading=none]
 \end{refsection}
 
 
 \section{University and Community Service}
 
 \subsection{Instruction}
+\begin{refsection}
+	
+\subsubsection{Description}
+
+
+\subsubsection{Activities}
+
+During Fall term 2019, I taught the lecture and laboratory sections of AL/BI 345 General Entomology.
+\cite{moore_syllabus_2019} \cite{moore_web_2019-1}
+
+\subsubsection{Plans}
+
+During Fall term 2020, I will probably be assigned to teach the lecture and laboratory sections of AL 109 Insect World.
+
+\subsubsection{References}
+\printbibliography[heading=none]
+\end{refsection}
 
 \begin{comment}
 \raggedright\vspace{2mm}\textbf{Activity}
@@ -887,6 +946,16 @@ I served as a member of this committee.
 	\end{itemize}
 	\printbibliography[heading=none]
 \end{refsection}
+
+\subsection{GDOA-DAWR Eight Spot Butterfly Conservation \$20K}
+\label{eightspot}
+\begin{refsection}
+	\begin{itemize}
+		\item Proposal and Permit Application \cite{aubrey_moore_application_2016}
+	\end{itemize}
+	\printbibliography[heading=none]
+\end{refsection}
+
 
 \subsection{Western Plant Diagnostic Network 1Y \$10K}
 \label{WPDN}
